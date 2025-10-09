@@ -253,7 +253,7 @@ public interface WorldmapExtendedConfig extends Config
 	)
 	default boolean bankTutorIcon()
 	{
-		return false;
+		return true;
 	}
 
 	@ConfigItem(
@@ -265,7 +265,7 @@ public interface WorldmapExtendedConfig extends Config
 	)
 	default boolean bondTutorIcon()
 	{
-		return false;
+		return true;
 	}
 
 	@ConfigItem(
@@ -277,7 +277,7 @@ public interface WorldmapExtendedConfig extends Config
 	)
 	default boolean clueTutorIcon()
 	{
-		return false;
+		return true;
 	}
 
 	@ConfigItem(
@@ -289,7 +289,7 @@ public interface WorldmapExtendedConfig extends Config
 	)
 	default boolean combatTutorIcon()
 	{
-		return false;
+		return true;
 	}
 
 	@ConfigItem(
@@ -301,7 +301,7 @@ public interface WorldmapExtendedConfig extends Config
 	)
 	default boolean cookingTutorIcon()
 	{
-		return false;
+		return true;
 	}
 
 	@ConfigItem(
@@ -313,7 +313,7 @@ public interface WorldmapExtendedConfig extends Config
 	)
 	default boolean craftingTutorIcon()
 	{
-		return false;
+		return true;
 	}
 
 	@ConfigItem(
@@ -325,7 +325,7 @@ public interface WorldmapExtendedConfig extends Config
 	)
 	default boolean dangerTutorIcon()
 	{
-		return false;
+		return true;
 	}
 
 	@ConfigItem(
@@ -337,7 +337,7 @@ public interface WorldmapExtendedConfig extends Config
 	)
 	default boolean deadmanTutorIcon()
 	{
-		return false;
+		return true;
 	}
 
 	@ConfigItem(
@@ -349,7 +349,7 @@ public interface WorldmapExtendedConfig extends Config
 	)
 	default boolean fishingTutorIcon()
 	{
-		return false;
+		return true;
 	}
 
 	@ConfigItem(
@@ -361,7 +361,7 @@ public interface WorldmapExtendedConfig extends Config
 	)
 	default boolean hunterTutorIcon()
 	{
-		return false;
+		return true;
 	}
 
 	@ConfigItem(
@@ -373,7 +373,7 @@ public interface WorldmapExtendedConfig extends Config
 	)
 	default boolean ironmanTutorIcon()
 	{
-		return false;
+		return true;
 	}
 
 	@ConfigItem(
@@ -385,7 +385,7 @@ public interface WorldmapExtendedConfig extends Config
 	)
 	default boolean leaguesTutorIcon()
 	{
-		return false;
+		return true;
 	}
 
 	@ConfigItem(
@@ -397,7 +397,7 @@ public interface WorldmapExtendedConfig extends Config
 	)
 	default boolean lumbridgeGuideIcon()
 	{
-		return false;
+		return true;
 	}
 
 	@ConfigItem(
@@ -409,7 +409,7 @@ public interface WorldmapExtendedConfig extends Config
 	)
 	default boolean miningTutorIcon()
 	{
-		return false;
+		return true;
 	}
 
 	@ConfigItem(
@@ -421,7 +421,7 @@ public interface WorldmapExtendedConfig extends Config
 	)
 	default boolean prayerTutorIcon()
 	{
-		return false;
+		return true;
 	}
 
 	@ConfigItem(
@@ -433,7 +433,7 @@ public interface WorldmapExtendedConfig extends Config
 	)
 	default boolean securityTutorIcon()
 	{
-		return false;
+		return true;
 	}
 
 	@ConfigItem(
@@ -445,7 +445,7 @@ public interface WorldmapExtendedConfig extends Config
 	)
 	default boolean smithingTutorIcon()
 	{
-		return false;
+		return true;
 	}
 
 	@ConfigItem(
@@ -457,7 +457,7 @@ public interface WorldmapExtendedConfig extends Config
 	)
 	default boolean woodcuttingTutorIcon()
 	{
-		return false;
+		return true;
 	}
 	//endregion
 
