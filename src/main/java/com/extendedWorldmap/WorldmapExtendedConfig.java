@@ -21,7 +21,7 @@ public interface WorldmapExtendedConfig extends Config
 	@ConfigItem(
 		keyName = "agilityShortcutsIcon",
 		name = "Show Agility Shortcut icons",
-		description = "Choose whether to view or hide the icons, or conditional based on level.",
+		description = "Choose whether to view or hide the icons (may clash with some 'World Maps' settings).",
 		position = 1,
 		section = gameFeatureSection
 	)
@@ -105,7 +105,7 @@ public interface WorldmapExtendedConfig extends Config
 	@ConfigItem(
 		keyName = "dungeonIcon",
 		name = "Show Dungeon icons",
-		description = "Choose whether to view or hide the icons.",
+		description = "Choose whether to view or hide the icons (may clash with some 'World Maps' settings).",
 		position = 8,
 		section = gameFeatureSection
 	)
@@ -141,7 +141,7 @@ public interface WorldmapExtendedConfig extends Config
 	@ConfigItem(
 		keyName = "housePortalIcon",
 		name = "Show House Portal icons",
-		description = "Choose whether to view or hide the icons, conditional based on level or on chosen location.",
+		description = "Choose whether to view or hide the icons.",
 		position = 11,
 		section = gameFeatureSection
 	)
@@ -165,7 +165,7 @@ public interface WorldmapExtendedConfig extends Config
 	@ConfigItem(
 		keyName = "minigameIcon",
 		name = "Show Minigame icons",
-		description = "Choose whether to view or hide the icons.",
+		description = "Choose whether to view or hide the icons (may clash with some 'World Maps' settings).",
 		position = 13,
 		section = gameFeatureSection
 	)
@@ -189,8 +189,7 @@ public interface WorldmapExtendedConfig extends Config
 	@ConfigItem(
 		keyName = "questStartIcon",
 		name = "Show Quest icons",
-		description = "Choose whether to view or hide the icons, or conditional based on completion status." +
-			"(Conditional option is incompatible with certain options on the Runelite worldmap client plugin).",
+		description = "Choose whether to view or hide the icons (may clash with some 'World Maps' settings).",
 		position = 15,
 		section = gameFeatureSection
 	)
@@ -214,7 +213,7 @@ public interface WorldmapExtendedConfig extends Config
 	@ConfigItem(
 		keyName = "taskMasterIcon",
 		name = "Show Task Master icons",
-		description = "Choose whether to view or hide the icons, or conditional based on completion status.",
+		description = "Choose whether to view or hide the icons.",
 		position = 17,
 		section = gameFeatureSection
 	)
@@ -226,7 +225,7 @@ public interface WorldmapExtendedConfig extends Config
 	@ConfigItem(
 		keyName = "transportationIcon",
 		name = "Show Transportation icons",
-		description = "Choose whether to view or hide the icons.",
+		description = "Choose whether to view or hide the icons (may clash with some 'World Maps' settings).",
 		position = 18,
 		section = gameFeatureSection
 	)
@@ -474,8 +473,7 @@ public interface WorldmapExtendedConfig extends Config
 	@ConfigItem(
 		keyName = "agilityCoursesIcon",
 		name = "Show Agility Courses icons",
-		description = "Choose whether to view or hide the icons, or conditional based on level." +
-			"(Conditional option is incompatible with certain options on the Runelite worldmap client plugin).",
+		description = "Choose whether to view or hide the icons (may clash with some 'World Maps' settings).",
 		position = 1,
 		section = trainingSection
 	)
@@ -487,7 +485,7 @@ public interface WorldmapExtendedConfig extends Config
 	@ConfigItem(
 		keyName = "anvilIcon",
 		name = "Show Anvil icons",
-		description = "Choose whether to view or hide the icons, including whether the limited-use anvils are shown.",
+		description = "Choose whether to view or hide the icons.",
 		position = 4,
 		section = trainingSection
 	)
@@ -571,7 +569,7 @@ public interface WorldmapExtendedConfig extends Config
 	@ConfigItem(
 		keyName = "farmingPatchIcon",
 		name = "Show Farming Patch icons",
-		description = "Choose whether to view or hide the icons.",
+		description = "Choose whether to view or hide the icons (may clash with some 'World Maps' settings).",
 		position = 10,
 		section = trainingSection
 	)
@@ -583,7 +581,7 @@ public interface WorldmapExtendedConfig extends Config
 	@ConfigItem(
 		keyName = "fishingSpotIcon",
 		name = "Show Fishing Spot icons",
-		description = "Choose whether to view or hide the icons.",
+		description = "Choose whether to view or hide the icons (may clash with some 'World Maps' settings).",
 		position = 11,
 		section = trainingSection
 	)
@@ -619,7 +617,7 @@ public interface WorldmapExtendedConfig extends Config
 	@ConfigItem(
 		keyName = "hunterTrainingIcon",
 		name = "Show Hunter Training icons",
-		description = "Choose whether to view or hide the icons.",
+		description = "Choose whether to view or hide the icons (may clash with some 'World Maps' settings).",
 		position = 14,
 		section = trainingSection
 	)
@@ -643,7 +641,7 @@ public interface WorldmapExtendedConfig extends Config
 	@ConfigItem(
 		keyName = "miningSiteIcon",
 		name = "Show Mining Site icons",
-		description = "Choose whether to view or hide the icons.",
+		description = "Choose whether to view or hide the icons (may clash with some 'World Maps' settings).",
 		position = 16,
 		section = trainingSection
 	)
@@ -679,7 +677,7 @@ public interface WorldmapExtendedConfig extends Config
 	@ConfigItem(
 		keyName = "rareTreesIcon",
 		name = "Show Rare Trees icons",
-		description = "Choose whether to view or hide the icons.",
+		description = "Choose whether to view or hide the icons (may clash with some 'World Maps' settings).",
 		position = 19,
 		section = trainingSection
 	)
