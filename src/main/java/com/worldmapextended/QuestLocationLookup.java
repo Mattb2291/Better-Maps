@@ -1,4 +1,4 @@
-package com.extendedWorldmap;
+package com.worldmapextended;
 
 import java.util.Map;
 import static java.util.Map.entry;
@@ -9,7 +9,7 @@ import net.runelite.api.coords.WorldPoint;
 @Slf4j
 public class QuestLocationLookup
 {
-	final static Map<WorldPoint, Quest> objectsToQuests = Map.<WorldPoint, Quest>ofEntries(
+	final static Map<WorldPoint, Quest> locationsToQuests = Map.<WorldPoint, Quest>ofEntries(
 		entry(new WorldPoint(1663, 3672, 0), Quest.A_KINGDOM_DIVIDED),
 		entry(new WorldPoint(3672, 3224, 0), Quest.A_NIGHT_AT_THE_THEATRE),
 		entry(new WorldPoint(3085, 3251, 0), Quest.A_PORCINE_OF_INTEREST),
@@ -186,6 +186,7 @@ public class QuestLocationLookup
 		entry(new WorldPoint(2968, 3204, 0), Quest.WITCHS_POTION),
 		entry(new WorldPoint(3226, 3242, 0), Quest.X_MARKS_THE_SPOT),
 		entry(new WorldPoint(2442, 3051, 0), Quest.ZOGRE_FLESH_EATERS),
+
 		entry(new WorldPoint(3084, 3123, 0), Quest.COOKS_ASSISTANT) // Actually the Lumbridge Tutorial
 		);
 }

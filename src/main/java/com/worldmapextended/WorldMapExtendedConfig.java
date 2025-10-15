@@ -1,12 +1,12 @@
-package com.extendedWorldmap;
+package com.worldmapextended;
 
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 import net.runelite.client.config.ConfigSection;
 
-@ConfigGroup(WorldmapExtendedPlugin.CONFIG_GROUP)
-public interface WorldmapExtendedConfig extends Config
+@ConfigGroup(WorldMapExtendedPlugin.CONFIG_GROUP)
+public interface WorldMapExtendedConfig extends Config
 {
 
 	//region Game Features
