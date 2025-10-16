@@ -1,13 +1,13 @@
-package com.worldmapextended;
+package com.bettermaps;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class worldMapExtendedStart
+public class BetterMapsStart
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(WorldMapExtendedPlugin.class);
+		ExternalPluginManager.loadBuiltin(BetterMapsPlugin.class);
 		RuneLite.main(args);
 	}
 }

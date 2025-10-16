@@ -1,4 +1,4 @@
-package com.worldmapextended;
+package com.bettermaps;
 
 import lombok.Getter;
 import net.runelite.api.coords.WorldPoint;

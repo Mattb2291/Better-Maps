@@ -1,4 +1,4 @@
-package com.worldmapextended;
+package com.bettermaps;
 
 import java.util.Map;
 import static java.util.Map.entry;
